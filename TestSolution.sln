@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{1CD7C51B-C3BF-4EC9-A4E9-DB07F8F085AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{1CD7C51B-C3BF-4EC9-A4E9-DB07F8F085AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{AC8590B4-0696-4C73-A9F0-7DE1AE677F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{AC8590B4-0696-4C73-A9F0-7DE1AE677F79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "testwebapi\TestWebApi.csproj", "{D0747D05-E2F2-4115-B60A-346658AD597C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWebApi", "testwebapi\TestWebApi.csproj", "{D0747D05-E2F2-4115-B60A-346658AD597C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestXUnit", "TestXUnit\TestXUnit.csproj", "{80732802-2AE1-4D8F-B933-77C740268752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestXUnit", "TestXUnit\TestXUnit.csproj", "{80732802-2AE1-4D8F-B933-77C740268752}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestShared", "TestShared\TestShared.shproj", "{64B42026-53CC-453C-A0E8-53DA1EE644D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1CD7C51B-C3BF-4EC9-A4E9-DB07F8F085AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,14 @@ Global
 		{80732802-2AE1-4D8F-B933-77C740268752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80732802-2AE1-4D8F-B933-77C740268752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80732802-2AE1-4D8F-B933-77C740268752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B115E98-F66F-4A3A-AFA1-A17238A3D45C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestShared\TestShared.projitems*{64b42026-53cc-453c-a0e8-53da1ee644d8}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

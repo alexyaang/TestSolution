@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\TestShared\Person.cs" Link="Person.cs" />
+  </ItemGroup>
+
 </Project>

@@ -11,4 +11,8 @@
     <Compile Include="..\TestShared\Person.cs" Link="Person.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestClassLib\TestClassLib.csproj" />
+  </ItemGroup>
+
 </Project>

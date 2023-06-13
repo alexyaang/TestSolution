@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <Import Project="..\TestShared\TestShared.projitems" Label="Shared" />
+
+
 </Project>

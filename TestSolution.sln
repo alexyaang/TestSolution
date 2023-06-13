@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestXUnit", "TestXUnit\Test
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestShared", "TestShared\TestShared.shproj", "{64B42026-53CC-453C-A0E8-53DA1EE644D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMSTest", "TestMSTest\TestMSTest.csproj", "{2AB41665-C2B5-44E3-9D25-A170B0E4AC9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMSTest", "TestMSTest\TestMSTest.csproj", "{2AB41665-C2B5-44E3-9D25-A170B0E4AC9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNUnit", "TestNUnit\TestNUnit.csproj", "{E3B389E7-F8D2-470E-B11F-D4277D7A4E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNUnit", "TestNUnit\TestNUnit.csproj", "{E3B389E7-F8D2-470E-B11F-D4277D7A4E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorServer", "TestBlazorServer\TestBlazorServer.csproj", "{DB9505BF-A6A7-44CB-99D7-4E25172003A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazorServer", "TestBlazorServer\TestBlazorServer.csproj", "{DB9505BF-A6A7-44CB-99D7-4E25172003A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBUnit", "Testbunit\TestBUnit.csproj", "{5C68B553-10A6-41D8-957E-91E57F3E5532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBUnit", "Testbunit\TestBUnit.csproj", "{5C68B553-10A6-41D8-957E-91E57F3E5532}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassLib", "TestClassLib\TestClassLib.csproj", "{537847DC-D224-443E-9DF7-E05DB69A6C85}"
 EndProject
@@ -73,6 +73,7 @@ Global
 		SolutionGuid = {7B115E98-F66F-4A3A-AFA1-A17238A3D45C}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestShared\TestShared.projitems*{537847dc-d224-443e-9df7-e05db69a6c85}*SharedItemsImports = 5
 		TestShared\TestShared.projitems*{64b42026-53cc-453c-a0e8-53da1ee644d8}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

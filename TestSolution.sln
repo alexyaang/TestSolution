@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazorServer", "TestBla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBUnit", "Testbunit\TestBUnit.csproj", "{5C68B553-10A6-41D8-957E-91E57F3E5532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassLib", "TestClassLib\TestClassLib.csproj", "{537847DC-D224-443E-9DF7-E05DB69A6C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClassLib", "TestClassLib\TestClassLib.csproj", "{537847DC-D224-443E-9DF7-E05DB69A6C85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

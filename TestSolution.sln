@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClassLib", "TestClassLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGrpcService", "TestGrpcService\TestGrpcService.csproj", "{47601936-84F5-476C-BD60-F2A822E5859A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorLib", "RazorLib\RazorLib.csproj", "{D751C42B-57A7-4B9D-BDF2-124C8E0F3A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{47601936-84F5-476C-BD60-F2A822E5859A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47601936-84F5-476C-BD60-F2A822E5859A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47601936-84F5-476C-BD60-F2A822E5859A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D751C42B-57A7-4B9D-BDF2-124C8E0F3A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D751C42B-57A7-4B9D-BDF2-124C8E0F3A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D751C42B-57A7-4B9D-BDF2-124C8E0F3A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D751C42B-57A7-4B9D-BDF2-124C8E0F3A22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

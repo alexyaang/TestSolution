@@ -17,7 +17,7 @@ public class MathTests
     internal void CanAddTheoryMemberDataProperty(int val1, int val2, int expected)
     {
         var result = val1 + val2;
-        Assert.Equal(expected, result);
+        result.Should().Be(expected);
     }
 
     [Theory]
